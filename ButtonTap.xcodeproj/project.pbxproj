@@ -15,6 +15,7 @@
 		164C556C2A8E9D3100C3261D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 164C556A2A8E9D3100C3261D /* LaunchScreen.storyboard */; };
 		164C55812A8E9D3200C3261D /* ButtonTapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164C55802A8E9D3200C3261D /* ButtonTapUITests.swift */; };
 		164C55832A8E9D3200C3261D /* ButtonTapUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164C55822A8E9D3200C3261D /* ButtonTapUITestsLaunchTests.swift */; };
+		164C55932A8E9F0900C3261D /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164C55922A8E9F0900C3261D /* ViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,8 @@
 		164C557C2A8E9D3200C3261D /* ButtonTapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonTapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		164C55802A8E9D3200C3261D /* ButtonTapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTapUITests.swift; sourceTree = "<group>"; };
 		164C55822A8E9D3200C3261D /* ButtonTapUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTapUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		164C558F2A8E9EED00C3261D /* ButtonTapTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ButtonTapTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		164C55922A8E9F0900C3261D /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 		164C55752A8E9D3200C3261D /* ButtonTapTests */ = {
 			isa = PBXGroup;
 			children = (
+				164C558F2A8E9EED00C3261D /* ButtonTapTests-Bridging-Header.h */,
+				164C55922A8E9F0900C3261D /* ViewControllerTests.swift */,
 			);
 			path = ButtonTapTests;
 			sourceTree = "<group>";
@@ -195,6 +200,7 @@
 					};
 					164C55712A8E9D3200C3261D = {
 						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
 						TestTargetID = 164C555B2A8E9D3000C3261D;
 					};
 					164C557B2A8E9D3200C3261D = {
@@ -265,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				164C55932A8E9F0900C3261D /* ViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,14 +492,22 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.abrarulhaq.ButtonTap.ButtonTapTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "ButtonTapTests/ButtonTapTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ButtonTap.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ButtonTap";
@@ -504,14 +519,21 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.abrarulhaq.ButtonTap.ButtonTapTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "ButtonTapTests/ButtonTapTests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ButtonTap.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ButtonTap";
