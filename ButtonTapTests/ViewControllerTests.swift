@@ -13,5 +13,6 @@ final class ViewControllerTest: XCTestCase {
         let sb = UIStoryboard(name: "Main", bundle: nil)
         let sut: ViewController = sb.instantiateViewController(identifier: String(describing: ViewController.self))
         sut.loadViewIfNeeded()
+        sut.button.sendActions(for: .touchUpInside)
     }
 }
