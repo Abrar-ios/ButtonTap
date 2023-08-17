@@ -9,7 +9,9 @@ import XCTest
 @testable import ButtonTap
 
 final class ViewControllerTest: XCTestCase {
-    func test_zero(){
-        XCTFail("There is no tests are implemneted in ViewControllerTests yet")
+    func test_tappingButton(){
+        let sb = UIStoryboard(name: "Main", bundle: nil)
+        let sut: ViewController = sb.instantiateViewController(identifier: String(describing: ViewController.self))
+        sut.loadViewIfNeeded()
     }
 }
