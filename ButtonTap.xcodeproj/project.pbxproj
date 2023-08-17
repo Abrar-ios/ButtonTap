@@ -13,7 +13,6 @@
 		164C55672A8E9D3000C3261D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 164C55652A8E9D3000C3261D /* Main.storyboard */; };
 		164C55692A8E9D3100C3261D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 164C55682A8E9D3100C3261D /* Assets.xcassets */; };
 		164C556C2A8E9D3100C3261D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 164C556A2A8E9D3100C3261D /* LaunchScreen.storyboard */; };
-		164C55772A8E9D3200C3261D /* ButtonTapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164C55762A8E9D3200C3261D /* ButtonTapTests.swift */; };
 		164C55812A8E9D3200C3261D /* ButtonTapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164C55802A8E9D3200C3261D /* ButtonTapUITests.swift */; };
 		164C55832A8E9D3200C3261D /* ButtonTapUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164C55822A8E9D3200C3261D /* ButtonTapUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
@@ -45,7 +44,6 @@
 		164C556B2A8E9D3100C3261D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		164C556D2A8E9D3100C3261D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		164C55722A8E9D3200C3261D /* ButtonTapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonTapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		164C55762A8E9D3200C3261D /* ButtonTapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTapTests.swift; sourceTree = "<group>"; };
 		164C557C2A8E9D3200C3261D /* ButtonTapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonTapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		164C55802A8E9D3200C3261D /* ButtonTapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTapUITests.swift; sourceTree = "<group>"; };
 		164C55822A8E9D3200C3261D /* ButtonTapUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTapUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -113,7 +111,6 @@
 		164C55752A8E9D3200C3261D /* ButtonTapTests */ = {
 			isa = PBXGroup;
 			children = (
-				164C55762A8E9D3200C3261D /* ButtonTapTests.swift */,
 			);
 			path = ButtonTapTests;
 			sourceTree = "<group>";
@@ -268,7 +265,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				164C55772A8E9D3200C3261D /* ButtonTapTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
