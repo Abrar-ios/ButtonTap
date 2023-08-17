@@ -16,6 +16,7 @@
 		164C55812A8E9D3200C3261D /* ButtonTapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164C55802A8E9D3200C3261D /* ButtonTapUITests.swift */; };
 		164C55832A8E9D3200C3261D /* ButtonTapUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164C55822A8E9D3200C3261D /* ButtonTapUITestsLaunchTests.swift */; };
 		164C55932A8E9F0900C3261D /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164C55922A8E9F0900C3261D /* ViewControllerTests.swift */; };
+		164C55952A8EA8BE00C3261D /* TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164C55942A8EA8BE00C3261D /* TestHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		164C55822A8E9D3200C3261D /* ButtonTapUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTapUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		164C558F2A8E9EED00C3261D /* ButtonTapTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ButtonTapTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		164C55922A8E9F0900C3261D /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
+		164C55942A8EA8BE00C3261D /* TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHelpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 			children = (
 				164C558F2A8E9EED00C3261D /* ButtonTapTests-Bridging-Header.h */,
 				164C55922A8E9F0900C3261D /* ViewControllerTests.swift */,
+				164C55942A8EA8BE00C3261D /* TestHelpers.swift */,
 			);
 			path = ButtonTapTests;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				164C55932A8E9F0900C3261D /* ViewControllerTests.swift in Sources */,
+				164C55952A8EA8BE00C3261D /* TestHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
